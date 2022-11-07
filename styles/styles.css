@@ -8,11 +8,9 @@ body span{
 
 
 header .banner{
-    background-image: url(/images/helloWorld.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     text-align: end;
+    height: 353px;
+    
 }
 header .banner img{
     padding-right: 11rem;
