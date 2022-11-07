@@ -8,7 +8,7 @@ body span{
 
 
 header .banner{
-    background-image: url(/images/helloWorld.jpg);
+    background-image: url('/images/helloWorld.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
