@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body span{
+    font-size: 15px;
+}
+
+
+
+header .banner{
+    background-image: url(/images/helloWorld.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: end;
+}
+header .banner img{
+    padding-right: 11rem;
+    width: 200px;
+    padding-top: 25px;
+}
+
+header h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+header nav li{
+    list-style: none;
+    text-align: start;
+}
+header nav a{
+    text-decoration: none;
+    color: #005677;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+header nav a:hover {
+    background-color: #005677;
+    color: #ffff;
+}
+
+.datos{
+    padding-top: 20px;
+}
+.datos h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+}
+
+.datos li{
+    font-weight: 600;
+    font-style: italic;
+}
+.datos li span{
+    font-weight: 200;
+    font-style: normal;
+}
+
+.formacion h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+}
+.formacion li {
+    font-weight: 600;
+    list-style: none;
+}
+.formacion li span{
+    font-weight: 200;
+}
+
+.formacion ul li span:nth-child(3){
+    margin-left: 5rem;
+}
+
+.experiencia h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+}
+.experiencia li {
+    font-weight: 600;
+    list-style: none;
+}
+.experiencia li span{
+    font-weight: 200;
+
+}
+.experiencia ul li span:nth-child(3){
+    margin-left: 5rem;
+}
+footer{
+    background-color: #005677;
+    text-align: center;
+    color: #ffff;
+}
+footer a {
+    margin-right: 10px;
+    color: white;
+}
+
+.info{
+    color: #2b3c42;
+}
